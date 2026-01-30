@@ -18,13 +18,20 @@ public class Q6
         int b[] = new int[10];
         
         
+        
         System.out.println("Input 10 #");
         for(int i=0;i<b.length;i++){
             b[i] = a.nextInt();
         }
         for(int i=0;i<b.length;i++){
-            for(int y=0;y<b[i];y++){
-                int c = b[i]+1;
+            for(int y=0;y<b.length-1;y++){
+                if(b[y]>b[y+1]){
+                    
+                }
+                
+                
+                
+                
                 
             }
         }

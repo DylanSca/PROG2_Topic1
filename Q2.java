@@ -20,14 +20,14 @@ public class Q2
         System.out.println("Enter 10 numbers"); 
         b[i]=a.nextInt();
         min=max=b[i];
-        for(int j=1;j<b.length;j++){
-            b[j] = a.nextInt();
+        for( i=1;i<b.length;i++){
+            b[i] = a.nextInt();
             
-            if(b[j]<min){
-                min=b[j];
+            if(b[i]<min){
+                min=b[i];
             }
-            if(b[j]>max){
-                max=b[j];
+            if(b[i]>max){
+                max=b[i];
             }
         }
         System.out.println((max-min) + " " + "is the diffrence");
